@@ -1,0 +1,74 @@
+ *{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+ }
+
+ html.body{
+    height:100%;
+    width:100%;
+ }
+
+ #main{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+.card{
+    position:absolute;
+    top:50%;
+    left:50%;
+    height:300px;
+    width:230px;
+    background-color: antiquewhite;
+    border : 1px solid salmon; 
+    border-radius:20px;
+}
+
+#card1{
+    transform: translate(-50% , -50%) rotate(0deg);
+    z-index:4;
+    background-color: aqua;
+    background-image: url("pokemon_1.jpg");
+    background-size: cover;
+}
+
+#card2{
+     transform: translate(-50% , -50%) rotate(-7deg);
+     z-index:3;
+     background-color: darkblue;
+     background-image: url("pokemon_2.jpg");
+     background-size: cover;
+}
+
+#card2:hover{
+    z-index:10;
+}
+
+#card3{
+    transform: translate(-50% , -50%) rotate(-14deg);
+    z-index:2;
+    background-color: darkorange;
+    background-image: url(" pokemon_3.jpg");
+    background-size: cover;
+}
+
+
+#card3:hover{
+    z-index:20;
+}
+
+#card4{
+    transform: translate(-50% , -50%) rotate(-21deg);
+    z-index:1;
+    background-color: darkorchid;
+    background-image: url("pokemon_4.jpg");
+    background-size: cover;
+}
+
+#card4:hover{
+    z-index:30;
+}
