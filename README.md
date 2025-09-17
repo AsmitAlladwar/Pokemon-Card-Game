@@ -1,6 +1,8 @@
   # Pokemon-Card-Game
 
  # Pokemon Card Game (HTML + CSS)
+ \n
+ # Author : Asmit Vinod Alladwar
 
 A simple Pokémon card game built using *HTML* and *CSS*.  
 This project focuses on card stacking, layout design, and the use of z-index for creating a 3D-like layered effect.
